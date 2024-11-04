@@ -1,0 +1,30 @@
+ <h2 className="text-2xl font-bold text-text-default">
+        Leveraging my expertise in JavaScript, React, and ongoing learning in
+        Next.js and TypeScript, I provide a range of services tailored to meet
+        your needs {""}
+        <span
+          onClick={scrollToSection("services")}
+          className="text-primary relative hover:underline cursor-pointer"
+        >
+          services
+        </span>
+      </h2>
+      <Typography variant="h2" className="mb-10">
+        Why Work With Me?
+      </Typography>
+      <Typography>
+        My background in luxury hospitality has instilled a meticulous attention
+        to detail, versatility, and a commitment to excellence. As a self-taught
+        developer, I’ve learned to embrace challenges, adapt quickly, and
+        deliver results that exceed expectations.
+      </Typography>
+      <Typography className="mb-10">
+        Whether you’re a startup looking for rapid prototyping, a company
+        seeking to enhance your existing web applications, or in need of a
+        reliable freelance developer to bring your ideas to life—I’m here to
+        help you navigate the path forward.
+      </Typography>
+      <Typography variant="h2" className="mb-5">
+        Let’s Build Something Great Together.
+      </Typography>
+      <Typography className="font-bold">Call to Action:</Typography>

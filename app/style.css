@@ -1,0 +1,14 @@
+@keyframes bgMove {
+  0% {
+    background-position: bottom right;
+  }
+  100% {
+    background-position: top left;
+  }
+}
+
+.MovingBG {
+  background-size: 400% 400%;
+  /* color: transparent; */
+  animation: bgMove 5s linear infinite alternate;
+}
